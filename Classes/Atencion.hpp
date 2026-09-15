@@ -1,5 +1,5 @@
 #ifndef ATENCION_HPP
-#define ATENCION_HPp
+#define ATENCION_HPP
 
 #include "Paciente.hpp"
 #include <string>
