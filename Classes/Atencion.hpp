@@ -1,29 +1,29 @@
-#ifndef ATENCION_HPP
-#define ATENCION_HPP
+#pragma once
 
 #include "Paciente.hpp"
 #include <string>
-//using namespace std;
+
+using namespace std;
 
 class Atencion {
 private:
-    std::string idPaciente;
-    std::string nombrePaciente;
+    string idPaciente;
+    string nombrePaciente;
     int edadPaciente;
-    std::string servicio;
+    string servicio;
 
 public:
     Atencion();
     Atencion(const Paciente& paciente);
-    Atencion(const std::string& id, const std::string& nombre, int edad, const std::string& servicio);
+    Atencion(const string& id, const string& nombre, int edad, const string& servicio);
     ~Atencion();
 
-    std::string getIdPaciente() const;
-    std::string getNombrePaciente() const;
+    string getIdPaciente() const;
+    string getNombrePaciente() const;
     int getEdadPaciente() const;
-    std::string getServicio() const;
+    string getServicio() const;
 
     void mostrarDetalle() const;
 };
 
-#endif // ATENCION_HPP
+
