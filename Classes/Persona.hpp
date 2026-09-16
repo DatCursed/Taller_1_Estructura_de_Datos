@@ -20,6 +20,6 @@ public:
     void setEdad(int edad);
 
     virtual void mostrarInformacion() const;
-}; 
+};  
 
 
