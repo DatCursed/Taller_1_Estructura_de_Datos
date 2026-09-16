@@ -1,5 +1,6 @@
 #include "Atencion.hpp"
 #include <iostream>
+//using namespace std;
 
 Atencion::Atencion() { 
   idPaciente = ""; 
