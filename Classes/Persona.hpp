@@ -1,26 +1,25 @@
-#ifndef PERSONA_HPP
-#define PERSONA_HPP
+#pragma once
 
 #include <string>
-//using namespace std;
+using namespace std;
 
 class Persona {
 protected:
-    std::string nombre;
+    string nombre;
     int edad;
 
 public:
     Persona();
-    Persona(const std::string& nombre, int edad);
+    Persona(const string& nombre, int edad);
     virtual ~Persona();
 
-    std::string getNombre() const;
+    string getNombre() const;
     int getEdad() const;
 
-    void setNombre(const std::string& nombre);
+    void setNombre(const string& nombre);
     void setEdad(int edad);
 
     virtual void mostrarInformacion() const;
 };
 
-#endif // PERSONA_HPP
+
