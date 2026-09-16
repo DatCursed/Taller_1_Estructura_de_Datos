@@ -1,8 +1,10 @@
 #ifndef PACIENTE_HPP
 #define PACIENTE_HPP
 
+
 #include "Persona.hpp"
 #include <string>
+//using namespace std;
 
 class Paciente : public Persona {
 private:
