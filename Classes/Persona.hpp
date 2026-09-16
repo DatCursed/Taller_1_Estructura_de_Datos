@@ -2,6 +2,7 @@
 #define PERSONA_HPP
 
 #include <string>
+//using namespace std;
 
 class Persona {
 protected:
