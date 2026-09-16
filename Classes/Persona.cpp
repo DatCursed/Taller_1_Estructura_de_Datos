@@ -1,5 +1,6 @@
 #include "Persona.hpp"
 #include <iostream>
+//using namespace std;
 
 Persona::Persona() : nombre(""), edad(0) {}
 
