@@ -1,10 +1,8 @@
-//
-// Created by secod on 01-09-2026.
-//
-
 #include "Paciente.hpp"
 #include "Paciente.hpp"
 #include <iostream>
+
+//using namespace std;
 
 Paciente::Paciente() : Persona(), id(""), servicioDestino("") {}
 
