@@ -1,28 +1,26 @@
-#ifndef PACIENTE_HPP
-#define PACIENTE_HPP
-
+#pragma once
 
 #include "Persona.hpp"
 #include <string>
-//using namespace std;
+
+using namespace std;
 
 class Paciente : public Persona {
 private:
-    std::string id;
-    std::string servicioDestino;
+    string id;
+    string servicioDestino;
 
 public:
     Paciente();
-    Paciente(const std::string& id, const std::string& nombre, int edad, const std::string& servicioDestino);
+    Paciente(const string& id, const string& nombre, int edad, const string& servicioDestino);
     ~Paciente() override;
 
-    std::string getId() const;
-    std::string getServicioDestino() const;
+    string getId() const;
+    string getServicioDestino() const;
 
-    void setId(const std::string& id);
-    void setServicioDestino(const std::string& servicioDestino);
+    void setId(const string& id);
+    void setServicioDestino(const string& servicioDestino);
 
     void mostrarInformacion() const override;
 };
 
-#endif // PACIENTE_HPP
