@@ -1,29 +1,33 @@
-#include "Persona.hpp"
-#include <iostream>
-//using namespace std;
+#include "Persona.hpp" 
+#include <iostream> 
+using namespace std; 
 
-Persona::Persona() : nombre(""), edad(0) {}
+Persona::Persona() { 
+    nombre = ""; 
+    edad = 0; 
+} 
 
-Persona::Persona(const std::string& nombre, int edad)
-    : nombre(nombre), edad(edad) {}
+Persona::Persona(const string& nombre, int edad) { 
+    this->nombre = nombre; 
+    this->edad = edad; } 
 
-Persona::~Persona() {}
+Persona::~Persona() { } 
 
-std::string Persona::getNombre() const {
-    return nombre;
-}
+string Persona::getNombre() const { 
+    return nombre; 
+} 
 
-int Persona::getEdad() const {
-    return edad;
-}
+int Persona::getEdad() const { 
+    return edad; } 
 
-void Persona::setNombre(const std::string& nombre) {
-    this->nombre = nombre;
-}
 
-void Persona::setEdad(int edad) {
-    this->edad = edad;
-}
+void Persona::setNombre(const string& nombre) { 
+    this->nombre = nombre; } 
 
-void Persona::mostrarInformacion() const {
-    std::cout << "Nombre: " << nombre << " | Edad: " << edad;
+
+void Persona::setEdad(int edad) { 
+    this->edad = edad; } 
+
+
+void Persona::mostrarInformacion() const { 
+    cout << "Nombre: " << nombre << " | Edad: " << edad; }
