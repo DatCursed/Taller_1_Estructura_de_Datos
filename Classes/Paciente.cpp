@@ -1,32 +1,40 @@
 #include "Paciente.hpp"
-#include "Paciente.hpp"
 #include <iostream>
 
-//using namespace std;
+using namespace std;
 
-Paciente::Paciente() : Persona(), id(""), servicioDestino("") {}
+Paciente::Paciente() {
+    id = "";
+    servicioDestino = "";
+}
 
-Paciente::Paciente(const std::string& id, const std::string& nombre, int edad, const std::string& servicioDestino)
-    : Persona(nombre, edad), id(id), servicioDestino(servicioDestino) {}
+Paciente::Paciente(const string& id, const string& nombre, int edad, const string& servicioDestino) {
+    this->id = id;
+    this->nombre = nombre;
+    this->edad = edad;
+    this->servicioDestino = servicioDestino;
+}
 
-Paciente::~Paciente() {}
+Paciente::~Paciente() {
+}
 
-std::string Paciente::getId() const {
+string Paciente::getId() const {
     return id;
 }
 
-std::string Paciente::getServicioDestino() const {
+string Paciente::getServicioDestino() const {
     return servicioDestino;
 }
 
-void Paciente::setId(const std::string& id) {
+void Paciente::setId(const string& id) {
     this->id = id;
 }
 
-void Paciente::setServicioDestino(const std::string& servicioDestino) {
+void Paciente::setServicioDestino(const string& servicioDestino) {
     this->servicioDestino = servicioDestino;
 }
 
 void Paciente::mostrarInformacion() const {
-    std::cout << id << " - " << nombre;
+    cout << id << " - " << nombre;
 }
+
