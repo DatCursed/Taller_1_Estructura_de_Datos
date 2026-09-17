@@ -9,7 +9,7 @@ Atencion::Atencion() {
     edadPaciente = 0;
     servicio = "";
 }
-
+ 
 Atencion::Atencion(const Paciente& paciente) {
     idPaciente = paciente.getId();
     nombrePaciente = paciente.getNombre();
