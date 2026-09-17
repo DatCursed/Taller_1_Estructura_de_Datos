@@ -14,7 +14,7 @@ Paciente::Paciente(const string& id, const string& nombre, int edad, const strin
     this->edad = edad;
     this->servicioDestino = servicioDestino;
 }
-
+ 
 Paciente::~Paciente() {
 }
 
