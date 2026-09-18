@@ -1,5 +1,5 @@
-template <typename T>
 #include "Queue.hpp"
+template <typename T>
 
 Queue<T>::Queue() {
     this->front = nullptr;
