@@ -1,5 +1,5 @@
-template <typename T>
 #include "Stack.hpp"
+template <typename T>
 
 Stack<T>::Stack() {
     return this->top = nullptr;
