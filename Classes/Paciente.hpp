@@ -21,6 +21,6 @@ public:
     void setId(const string& id);
     void setServicioDestino(const string& servicioDestino);
 
-    void mostrarInformacion() const override;
+    void mostrarInformacion() const override; 
 };
 

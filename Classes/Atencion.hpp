@@ -11,7 +11,7 @@ private:
     string nombrePaciente;
     int edadPaciente;
     string servicio;
-
+ 
 public:
     Atencion();
     Atencion(const Paciente& paciente);

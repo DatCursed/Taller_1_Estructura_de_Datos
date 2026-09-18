@@ -30,4 +30,4 @@ void Persona::setEdad(int edad) {
 
 
 void Persona::mostrarInformacion() const { 
-    cout << "Nombre: " << nombre << " | Edad: " << edad; }
+    cout << "Nombre: " << nombre << " | Edad: " << edad; } 
