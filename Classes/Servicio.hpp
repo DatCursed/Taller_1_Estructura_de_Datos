@@ -2,7 +2,7 @@
 
 #include <string>
 #include "Paciente.hpp"
-#include "../data_structure/List.hpp"
+#include "../data_structures/List.hpp"
 
 using namespace std;
 
