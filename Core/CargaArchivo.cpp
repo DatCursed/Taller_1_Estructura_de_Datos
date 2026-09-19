@@ -44,6 +44,8 @@ bool CargaArchivo::cargarPacientes(Queue<Paciente>& colaPacientes) {
 
     if (!archivo.is_open()) {
         //cout << "Error: No se pudo abrir el archivo " << this->rutaArchivo << endl;
+        // esto va comentado ya que como se dice manejo de errores que si debe tener pero no dice 
+        // que se deba imprimir como tal cuando hay un error 
         return false;
     }
 
@@ -68,5 +70,6 @@ bool CargaArchivo::cargarPacientes(Queue<Paciente>& colaPacientes) {
 
     archivo.close();
     //cout << "Carga de datos realizada con éxito desde " << this->rutaArchivo << endl;
+    // lo mismo aca 
     return true;
 }
