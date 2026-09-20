@@ -13,5 +13,13 @@
 
 ## Instrucciones de Compilación
 
+Sistema hospitalario desarrollado en C++17.
+
+1. Requisitos
+
+Compilador compatible con C++17.
+CMake.
+CLion, Visual Studio con soporte para C++/CMake, u otro IDE compatible.
+
 
 
