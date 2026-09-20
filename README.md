@@ -83,9 +83,9 @@ cmake --build build
 
 La ubicación final del ejecutable depende del generador y configuración. En Windows puede quedar, por ejemplo, en build/Debug/TallerHospital.exe.
 
-## compilar y ejetcutar desde github 
+# compilar y ejetcutar desde github 
 
-# Clion
+## Clion
 
 * 1. Abrir CLion.
 * 2. En la pantalla inicial seleccionar "Get from VCS"
@@ -99,7 +99,7 @@ La ubicación final del ejecutable depende del generador y configuración. En Wi
 * 9. Compilar con Build → Build Project.
 * 10. Ejecutar con Run → Run 'TallerHospital'.
 
-# Visual 
+## Visual 
 
 * 1. Abrir Visual Studio.
 * 2. Seleccionar "Clone a repository".
