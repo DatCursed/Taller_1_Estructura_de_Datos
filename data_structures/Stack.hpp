@@ -16,3 +16,5 @@ public:
     bool empty();
     void clear();
 };
+
+#include "Stack.cpp"
