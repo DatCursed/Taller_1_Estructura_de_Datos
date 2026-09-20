@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(TallerHospital)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(TallerHospital
+        main.cpp
+
+        clases/Persona.cpp
+        clases/Paciente.cpp
+        clases/Atencion.cpp
+        clases/Servicio.cpp
+
+        Core/CargaArchivo.cpp
+        Core/SistemaHospital.cpp
+        Core/Menu.cpp
+)
