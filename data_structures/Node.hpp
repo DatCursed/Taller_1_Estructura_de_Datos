@@ -5,10 +5,12 @@ class Node {
 private:
     T value;
     Node<T>* next;
+
 public:
     Node(T value);
-    
+
     T getValue();
+    T& getValueReferencia();
     Node<T>* getNext();
 
     void setValue(T value);
@@ -16,3 +18,5 @@ public:
 
     ~Node();
 };
+
+#include "Node.cpp"
