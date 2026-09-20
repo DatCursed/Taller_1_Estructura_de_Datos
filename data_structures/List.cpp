@@ -29,14 +29,14 @@ void List<T>::insert(T value, int index) {
         if (!cursor) throw 0;
     }
 
-    Node<T>* nuevo = new Node(value);
+    Node<T>* nuevo = new Node<T>(value);
     nuevo->setNext(cursor->getNext());
     cursor->setNext(nuevo);
 }
 
 template <typename T>
 void List<T>::insertFirst(T value) {
-    Node<T>* nuevo = new Node(value);
+    Node<T>* nuevo = new Node<T>(value);
     nuevo->setNext(this->start);
     this->start = nuevo;
 }
@@ -44,7 +44,7 @@ void List<T>::insertFirst(T value) {
 template <typename T>
 void List<T>::insertLast(T value) {
     if (this->start == nullptr) {
-        this->start = new Node(value);
+        this->start = new Node<T>(value);
         return;
     }
 
@@ -52,7 +52,7 @@ void List<T>::insertLast(T value) {
     while (cursor->getNext() != nullptr) {
         cursor = cursor->getNext();
     }
-    cursor->setNext(new Node(value));
+    cursor->setNext(new Node<T>(value));
 }
 
 template <typename T>

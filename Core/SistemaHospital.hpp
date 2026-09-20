@@ -1,13 +1,13 @@
 #pragma once
 
 #include <string>
-#include "../data_structure/Queue.hpp"
-#include "../data_structure/Stack.hpp"
-#include "../data_structure/List.hpp"
-#include "../Clases/Persona.hpp"
-#include "../Clases/Paciente.hpp"
-#include "../Clases/Atencion.hpp"
-#include "../Clases/Servicio.hpp"
+#include "../data_structures/Queue.hpp"
+#include "../data_structures/Stack.hpp"
+#include "../data_structures/List.hpp"
+#include "../classes/Persona.hpp"
+#include "../classes/Paciente.hpp"
+#include "../classes/Atencion.hpp"
+#include "../classes/Servicio.hpp"
 #include "CargaArchivo.hpp"
 
 using namespace std;
