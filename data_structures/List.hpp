@@ -13,6 +13,7 @@ public:
     void insertLast(T value);
 
     T get(int index);
+    T& getReferencia(int index);
     T getFirst();
     T getLast();
 
@@ -22,3 +23,5 @@ public:
 
     ~List();
 };
+
+#include "List.cpp"
