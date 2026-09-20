@@ -47,34 +47,34 @@ add_executable(TallerHospital
         Core/Menu.cpp
 )
 
-##Ejecutar en CLion
+## Ejecutar en CLion
 
-1.Abrir CLion.
-2.Seleccionar File → Open.
-3.Abrir la carpeta que contiene CMakeLists.txt.
-4.Esperar a que CLion cargue CMake.
-5.Seleccionar el target TallerHospital.
-6.Compilar con Build → Build Project o Ctrl + F9.
-7.Ejecutar con Run → Run 'TallerHospital' o Shift + F10.
+* 1.Abrir CLion.
+* 2.Seleccionar File → Open.
+* 3.Abrir la carpeta que contiene CMakeLists.txt.
+* 4.Esperar a que CLion cargue CMake.
+* 5.Seleccionar el target TallerHospital.
+* 6.Compilar con Build → Build Project o Ctrl + F9.
+* 7.Ejecutar con Run → Run 'TallerHospital' o Shift + F10.
 
 Se recomienda mantener pacientes.txt en la carpeta principal del proyecto.
 
 Si aparece No hay pacientes en espera. aunque el archivo tenga datos, revisar la ubicación del archivo y el directorio de ejecución del IDE.
 
 
-##Ejecutar en Visual Studio
+## Ejecutar en Visual Studio
 
-1.Instalar Visual Studio con las herramientas de desarrollo de C++ y CMake.
-2.Abrir File → Open → Folder.
-3.Seleccionar la carpeta que contiene CMakeLists.txt.
-4.Esperar la configuración de CMake.
-5.Seleccionar el target TallerHospital.
-6.Usar Build → Build All.
-7.Ejecutar con F5 o el botón de ejecución.
+* 1.Instalar Visual Studio con las herramientas de desarrollo de C++ y CMake.
+* 2.Abrir File → Open → Folder.
+* 3.Seleccionar la carpeta que contiene CMakeLists.txt.
+* 4.Esperar la configuración de CMake.
+* 5.Seleccionar el target TallerHospital.
+* 6.Usar Build → Build All.
+* 7.Ejecutar con F5 o el botón de ejecución.
 
 
 
-##Compilar desde terminal con CMake
+## Compilar desde terminal con CMake
 
 Desde la carpeta principal:
 
