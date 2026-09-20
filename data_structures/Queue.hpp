@@ -17,3 +17,5 @@ public:
     bool empty();
     void clear();
 };
+
+#include "Queue.cpp"
