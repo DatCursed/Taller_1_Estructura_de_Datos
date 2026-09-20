@@ -67,6 +67,21 @@ T List<T>::get(int index) {
 }
 
 template <typename T>
+T& List<T>::getReferencia(int index) {
+    if (!this->start || index < 0) throw 0;
+
+    Node<T>* cursor = this->start;
+
+    for (int i = 0; i < index; i++) {
+        cursor = cursor->getNext();
+
+        if (!cursor) throw 0;
+    }
+
+    return cursor->getValueReferencia();
+}
+
+template <typename T>
 T List<T>::getFirst() {
     if (this->start == nullptr) throw 0;
     return this->start->getValue();
