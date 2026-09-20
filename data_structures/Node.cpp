@@ -12,6 +12,11 @@ T Node<T>::getValue() {
 }
 
 template <typename T>
+T& Node<T>::getValueReferencia() {
+    return this->value;
+}
+
+template <typename T>
 Node<T>* Node<T>::getNext() {
     return this->next;
 }
@@ -27,4 +32,5 @@ void Node<T>::setNext(Node<T>* next) {
 }
 
 template <typename T>
-Node<T>::~Node(){}
+Node<T>::~Node() {
+}
