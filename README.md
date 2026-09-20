@@ -83,7 +83,41 @@ cmake --build build
 
 La ubicación final del ejecutable depende del generador y configuración. En Windows puede quedar, por ejemplo, en build/Debug/TallerHospital.exe.
 
+## compilar y ejetcutar desde github 
 
+# Clion
 
+* 1. Abrir CLion.
+* 2. En la pantalla inicial seleccionar "Get from VCS"
+   o "Clone Repository".
+* 3. Pegar la URL del repositorio de GitHub.
+* 4. Elegir la carpeta donde se guardará el proyecto.
+* 5. Presionar "Clone".
+* 6. Abrir el proyecto cuando CLion lo solicite.
+* 7. Esperar a que CMake termine de cargar.
+* 8. Seleccionar el target "TallerHospital".
+* 9. Compilar con Build → Build Project.
+* 10. Ejecutar con Run → Run 'TallerHospital'.
 
+# Visual 
+
+* 1. Abrir Visual Studio.
+* 2. Seleccionar "Clone a repository".
+* 3. Pegar la URL del repositorio de GitHub.
+* 4. Elegir la carpeta de destino.
+* 5. Presionar "Clone".
+* 6. Abrir el proyecto CMake.
+* 7. Visual Studio detectará el CMakeLists.txt.
+* 8. Seleccionar el target "TallerHospital".
+* 9. Compilar con Build → Build All.
+* 10. Ejecutar con F5.
+
+Desde Git Bash / CMD / PowerShell
+
+Esta es la opción más independiente del IDE. Primero se clona el repositorio:
+git clone https://github.com/USUARIO/TallerHospital.git
+cd TallerHospital
+cmake -S . -B build
+cmake --build build
+Y finalmente ejecutar el .exe generado.
 
